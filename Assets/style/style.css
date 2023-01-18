@@ -10,7 +10,25 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgba(135, 180, 222, 0.664);
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    font-size: 60px;
+    margin: 20px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.202);
+    background-color: rgba(255, 255, 255, 0.866);
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card {
@@ -27,8 +45,8 @@ body {
 
 .card_back, .card_front {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +62,7 @@ body {
 }
 
 .card_back {
-    background-color: rgb(0, 153, 255);
+    background-color: rgb(92, 187, 255);
     font-size: 30px;
     color: rgb(30, 25, 49);
 }

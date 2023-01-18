@@ -10,14 +10,18 @@
     
 </head>
 <body>
-    <div id="gameboard">
 
-    </div>
-    <div id="gameover">
-        <div>
-            Parabéns você completou o jogo!
+    <div id="game">
+        <header>Jogo da memória</header>
+
+        <div id="gameboard">
         </div>
-        <button id="restart" onclick="restart()">Reiniciar</button>
+        <div id="gameover">
+            <div>
+                Parabéns, você encontrou todos os pares!
+            </div>
+            <button id="restart" onclick="restart()">Recomeçar</button>
+        </div>
     </div>
     <script src="Assets/script/game.js"></script>
     <script src="Assets/script/script.js"></script>
